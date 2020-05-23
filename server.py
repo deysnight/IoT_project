@@ -13,4 +13,4 @@ def config():
     
     res = random.uniform(1, 10)
     
-    return str(res)
+    return str('{"dig": "day", "ana": ' + str(res) + '}')
